@@ -7,68 +7,55 @@ This template leverages a set of powerful frameworks and libraries that make app
 ### **Expo**
 
 - **[Expo SDK](https://expo.dev/)**: The core framework that powers the app, providing a managed environment for building cross-platform apps with React Native. Expo includes essential libraries and APIs for handling device features such as haptics, notifications, camera, and more.
-  - Key Features: Simplified configuration, built-in libraries for native functionality, and the ability to deploy to iOS, Android, and the web with minimal setup.
 
 ### **Expo Router**
 
 - **[expo-router](https://docs.expo.dev/routing/)**: A file-based routing library that simplifies navigation between screens in a React Native app. It is inspired by Next.js routing, providing automatic route generation and an intuitive navigation structure.
-  - Key Features: Automatic screen registration, nested routing, and dynamic routes based on the file system structure.
 
 ### **React Navigation**
 
 - **[@react-navigation/native](https://reactnavigation.org/docs/getting-started/)**: A library for managing screen transitions and navigation in a React Native app. It is highly customizable and offers various navigation patterns, including stack, tab, and drawer navigation.
 - **[@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)**: Provides a bottom tab navigation system that helps users switch between major sections of the app quickly.
-  - Key Features: Deep linking, customizable transitions, and nested navigation.
 
 ### **React Query**
 
 - **[@tanstack/react-query](https://tanstack.com/query)**: A powerful library for managing server state in React applications. It simplifies data fetching, caching, and synchronization.
-  - Key Features: Automatic caching, refetching, and background synchronization of data, making it an ideal choice for handling API calls and real-time data.
 
 ### **Supabase**
 
 - **[@supabase/supabase-js](https://supabase.com/docs/library/getting-started)**: A backend-as-a-service (BaaS) platform that provides instant APIs for databases, authentication, and real-time data syncing.
-  - Key Features: Simple authentication, real-time database syncing, and RESTful APIs.
 
 ### **i18n-js**
 
 - **[i18n-js](https://github.com/fnando/i18n-js)**: A lightweight internationalization (i18n) library for handling translations and locale-based formatting in React Native apps.
-  - Key Features: Supports pluralization, date and time formatting, and number formatting for different languages.
 
 ### **Nativewind**
 
 - **[Nativewind](https://github.com/marklawlor/nativewind)**: A utility-first CSS-in-JS framework built on top of Tailwind CSS. It allows for styling React Native components using utility classes in a way that is familiar to web developers.
-  - Key Features: Tailwind-like utility classes for rapid styling, responsive design support, and theme-based styling.
 
 ### **React Hook Form**
 
 - **[react-hook-form](https://react-hook-form.com/)**: A library for managing form state and validation with minimal re-renders. It integrates seamlessly with React Native and allows for easy handling of form validation and submission.
-  - Key Features: Simple API, minimal re-renders, and great integration with validation libraries.
 
 ### **Lucide React Native**
 
 - **[lucide-react-native](https://github.com/derhuerst/lucide-react-native)**: A collection of open-source, high-quality icons for React Native apps.
-  - Key Features: Customizable icons, scalable, and supports the latest SVG features.
 
 ### **React Native Reanimated**
 
 - **[react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/)**: A library for building high-performance animations in React Native. It provides a more declarative approach to animation and can handle complex animations with less overhead.
-  - Key Features: Worklets and hooks for animations, improved performance, and flexible animations.
 
 ### **React Native Gesture Handler**
 
 - **[react-native-gesture-handler](https://docs.swmansion.com/react-native-gesture-handler/)**: A library for handling gestures (swipes, drags, taps) in React Native, providing smooth, native-like interactions.
-  - Key Features: Gesture recognition, handling pan, pinch, swipe, and other gesture types.
 
 ### **Zod**
 
 - **[Zod](https://github.com/colinhacks/zod)**: A TypeScript-first schema validation library that helps validate data types and structures at runtime. It is often used for input validation, ensuring that the data conforms to the expected structure.
-  - Key Features: Type inference, minimalistic API, and runtime validation.
 
 ### **ESLint**
 
 - **[ESLint](https://eslint.org/)**: A static code analysis tool for identifying and fixing problems in JavaScript and TypeScript code. It helps maintain code quality by enforcing consistent coding standards and detecting errors early in the development process.
-  - Key Features: Code linting, customizable rules, and integration with pre-commit hooks for automatic code quality checks.
 
 ### **Other Notable Libraries**
 
