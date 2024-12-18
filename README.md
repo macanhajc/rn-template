@@ -4,57 +4,18 @@
 
 This template leverages a set of powerful frameworks and libraries that make app development faster and more efficient. Here's a breakdown of the main libraries and their purposes:
 
-### **Expo**
-
 - **[Expo SDK](https://expo.dev/)**: The core framework that powers the app, providing a managed environment for building cross-platform apps with React Native. Expo includes essential libraries and APIs for handling device features such as haptics, notifications, camera, and more.
-
-### **Expo Router**
-
 - **[expo-router](https://docs.expo.dev/routing/)**: A file-based routing library that simplifies navigation between screens in a React Native app. It is inspired by Next.js routing, providing automatic route generation and an intuitive navigation structure.
-
-### **React Navigation**
-
 - **[@react-navigation/native](https://reactnavigation.org/docs/getting-started/)**: A library for managing screen transitions and navigation in a React Native app. It is highly customizable and offers various navigation patterns, including stack, tab, and drawer navigation.
-- **[@react-navigation/bottom-tabs](https://reactnavigation.org/docs/bottom-tab-navigator/)**: Provides a bottom tab navigation system that helps users switch between major sections of the app quickly.
-
-### **React Query**
-
 - **[@tanstack/react-query](https://tanstack.com/query)**: A powerful library for managing server state in React applications. It simplifies data fetching, caching, and synchronization.
-
-### **Supabase**
-
 - **[@supabase/supabase-js](https://supabase.com/docs/library/getting-started)**: A backend-as-a-service (BaaS) platform that provides instant APIs for databases, authentication, and real-time data syncing.
-
-### **i18n-js**
-
 - **[i18n-js](https://github.com/fnando/i18n-js)**: A lightweight internationalization (i18n) library for handling translations and locale-based formatting in React Native apps.
-
-### **Nativewind**
-
 - **[Nativewind](https://github.com/marklawlor/nativewind)**: A utility-first CSS-in-JS framework built on top of Tailwind CSS. It allows for styling React Native components using utility classes in a way that is familiar to web developers.
-
-### **React Hook Form**
-
 - **[react-hook-form](https://react-hook-form.com/)**: A library for managing form state and validation with minimal re-renders. It integrates seamlessly with React Native and allows for easy handling of form validation and submission.
-
-### **Lucide React Native**
-
 - **[lucide-react-native](https://github.com/derhuerst/lucide-react-native)**: A collection of open-source, high-quality icons for React Native apps.
-
-### **React Native Reanimated**
-
 - **[react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/)**: A library for building high-performance animations in React Native. It provides a more declarative approach to animation and can handle complex animations with less overhead.
-
-### **React Native Gesture Handler**
-
 - **[react-native-gesture-handler](https://docs.swmansion.com/react-native-gesture-handler/)**: A library for handling gestures (swipes, drags, taps) in React Native, providing smooth, native-like interactions.
-
-### **Zod**
-
 - **[Zod](https://github.com/colinhacks/zod)**: A TypeScript-first schema validation library that helps validate data types and structures at runtime. It is often used for input validation, ensuring that the data conforms to the expected structure.
-
-### **ESLint**
-
 - **[ESLint](https://eslint.org/)**: A static code analysis tool for identifying and fixing problems in JavaScript and TypeScript code. It helps maintain code quality by enforcing consistent coding standards and detecting errors early in the development process.
 
 ### **Other Notable Libraries**
@@ -187,7 +148,6 @@ This template comes with a set of pre-configured, reusable components that you c
 ### **UI/BottomSheet**
 
 - A draggable BottomSheet component that supports:
-  - **Smooth Animations**: Swipe up or down to open and close the BottomSheet.
   - **Customizable Height**: Define the height of the BottomSheet for different screen sizes.
   - **Content Flexibility**: Pass any component inside the BottomSheet, making it perfect for modals, action sheets, or additional info panels.
 
@@ -260,7 +220,7 @@ Before setting up the project, make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-    git clone https://github.com/your-repo-name/rn-template.git
+    git clone https://github.com/macanhajc/rn-template.git
    ```
 2. Navigate into the project directory:
    ```bash
